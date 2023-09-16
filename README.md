@@ -1,2 +1,1 @@
-# site
-:globe_with_meridians: Personal website
+# :globe_with_meridians: Personal Website
