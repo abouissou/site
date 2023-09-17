@@ -3,6 +3,11 @@
     "dockerfile": "../Dockerfile",
     "context": ".."
   },
+  "customizations": {
+    "vscode": {
+      "extensions": ["quarto.quarto"]
+    }
+  },
   "features": {
     "git": "latest"
   }
