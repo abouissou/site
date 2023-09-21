@@ -5,8 +5,6 @@ website:
   title: "Adrien Bouissou"
   navbar:
     left:
-      - href: index.qmd
-        text: Home
       - about.qmd
 
 format:
