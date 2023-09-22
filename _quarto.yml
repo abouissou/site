@@ -1,0 +1,14 @@
+project:
+  type: website
+
+website:
+  title: "Adrien Bouissou"
+  navbar:
+    left:
+      - about.qmd
+
+format:
+  html:
+    theme: default
+    css: styles.css
+    toc: true
