@@ -11,6 +11,9 @@ website:
         href: https://linkedin.com/in/abouissou
       - icon: github
         href: https://github.com/abouissou
+  page-footer:
+    left: "&copy; 2023 Adrien Bouissou"
+    right: "Site generated with Quarto from source code hosted on GitHub"
   search: false
 
 format:
