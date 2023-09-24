@@ -1,1 +1,8 @@
-/*-- scss:defaults --*/
+/*-- scss:rules --*/
+
+.navbar-brand {
+  position: absolute;
+  left: 50%;
+  margin-right: 0%;
+  transform: translateX(-50%);
+}
