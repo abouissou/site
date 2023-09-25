@@ -1,5 +1,7 @@
 /*-- scss:rules --*/
 
+// Navigation Bar
+
 .navbar-brand {
   position: absolute;
   left: 50%;
@@ -12,9 +14,13 @@
   letter-spacing: .3rem;
 }
 
+// Footer
+
 .nav-footer-center {
   flex: none;
 }
+
+// Home Page
 
 div.quarto-about-jolla {
   margin-top: 5%;
@@ -23,8 +29,14 @@ div.quarto-about-jolla {
     margin-top: 0em;
     margin-bottom: 0em;
   }
-}
 
-.about-sep {
-  display: none;
+  .about-sep {
+    display: none;
+  }
+
+  .about-link {
+    color: orange;
+
+    &:hover { color: $secondary; }
+  }
 }
