@@ -1,3 +1,14 @@
 ---
 title: "Welcome to my website!"
+about:
+  template: jolla
+  image: images/rocky-shore.jpeg
+  image-width: 60%
+  image-shape: round
+  links:
+    - icon: person-circle
+      text: About
+      href: about.html
 ---
+
+I am an aspiring scientist interested in global change ecology.

@@ -1,0 +1,47 @@
+/*-- scss:defaults --*/
+
+$navbar-fg: tint-color(black, 20%);
+$navbar-hl: tint-color($navbar-fg, 20%);
+
+/*-- scss:rules --*/
+
+// Navigation Bar
+
+.navbar-brand {
+  position: absolute;
+  left: 50%;
+  margin-right: 0%;
+  transform: translateX(-50%);
+}
+
+.navbar-title {
+  text-transform: uppercase;
+  letter-spacing: .3rem;
+}
+
+// Footer
+
+.nav-footer-center {
+  flex: none;
+}
+
+// Home Page
+
+div.quarto-about-jolla {
+  margin-top: 5%;
+
+  main {
+    margin-top: 0em;
+    margin-bottom: 0em;
+  }
+
+  .about-sep {
+    display: none;
+  }
+
+  .about-link {
+    color: $blue;
+
+    &:hover { color: tint-color($blue, 20%); }
+  }
+}
