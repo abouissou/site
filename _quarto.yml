@@ -14,7 +14,8 @@ website:
     background: orange
   page-footer:
     left: "&copy; 2023 Adrien Bouissou"
-    right: "Site generated with Quarto from source code hosted on GitHub"
+    right: |
+      Site generated with [Quarto](https://quarto.org) from [source code](https://github.com/abouissou/site) on GitHub
   search: false
 
 format:
