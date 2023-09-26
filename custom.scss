@@ -1,3 +1,8 @@
+/*-- scss:defaults --*/
+
+$navbar-fg: tint-color(black, 20%);
+$navbar-hl: tint-color($navbar-fg, 20%);
+
 /*-- scss:rules --*/
 
 // Navigation Bar
@@ -35,8 +40,8 @@ div.quarto-about-jolla {
   }
 
   .about-link {
-    color: orange;
+    color: $blue;
 
-    &:hover { color: $secondary; }
+    &:hover { color: tint-color($blue, 20%); }
   }
 }
