@@ -19,6 +19,13 @@ $navbar-hl: tint-color($navbar-fg, 20%);
   letter-spacing: .3rem;
 }
 
+@include media-breakpoint-down(sm) {
+  .navbar-brand {
+    content: url('favicon.svg');
+    height: 2.125em;
+  }
+}
+
 // Footer
 
 .nav-footer-center {
