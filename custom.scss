@@ -12,6 +12,12 @@ $navbar-hl: tint-color($navbar-fg, 20%);
   left: 50%;
   margin-right: 0%;
   transform: translateX(-50%);
+  overflow: visible;
+}
+
+.navbar-logo {
+  padding-right: 0%;
+  transform: translateX(-50%);
 }
 
 .navbar-title {
@@ -19,10 +25,15 @@ $navbar-hl: tint-color($navbar-fg, 20%);
   letter-spacing: .3rem;
 }
 
+@include media-breakpoint-up(sm) {
+  .navbar-logo {
+    display: none;
+  }
+}
+
 @include media-breakpoint-down(sm) {
-  .navbar-brand {
-    content: url('favicon.svg');
-    height: 2.125em;
+  .navbar-title {
+    display: none;
   }
 }
 
