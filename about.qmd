@@ -1,3 +1,9 @@
 ---
 title: "About"
+about:
+  template: solana
+  image: images/kayak.jpeg
+  image-width: 45%
 ---
+
+I am a Cal Poly Humboldt graduate in Biology with a special interest in quantitative ecology.
