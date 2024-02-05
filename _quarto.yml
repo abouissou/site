@@ -15,7 +15,7 @@ website:
     background: goldenrod
     logo: favicon.svg
   page-footer:
-    left: "&copy; 2023 Adrien Bouissou"
+    left: "&copy; 2024 Adrien Bouissou"
     right: |
       Site built with [Quarto](https://quarto.org) from [source code](https://github.com/abouissou/site) on GitHub
   search: false
